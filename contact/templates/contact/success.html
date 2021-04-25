@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %} Wood - Contact{% endblock  %}
+{% load static %}
+{% load bootstrap4 %}
+{% block body %}
+  <!-- contact section start -->  
+    <div class="layout_padding contact_section">
+      <div class="container">
+        <div class="contact_section_inner">
+          <div class="contact_main">
+            <h1 class="contact_text">Contact Us</h1>
+                <h4>Email has been sent</h4>
+                <h4>Thank you for your mail. We will contact you right back.</h4>
+                <div class="col-sm-3 col-lg-3">
+                  <div class="social_icon">
+                    <ul>
+                      <li><img src="{% static 'site_static/images/fb-icon.png' %}"></li>
+                      <li><img src="{% static 'site_static/images/in-icon.png' %}"></li>
+                      <li><img src="{% static 'site_static/images/instagram-icon.png' %}"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- contact section end -->
+{% endblock body %}
